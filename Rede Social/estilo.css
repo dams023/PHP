@@ -1,0 +1,80 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(209, 203, 203);
+
+}
+
+.painel{
+    width: 300px;
+    margin: auto;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+
+}
+
+h1{
+    margin: 0;
+    color: rgb(37, 37, 185);
+    overflow: hidden;
+
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.enviar{
+    background-color: rgb(60, 60, 243);
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: rgb(62, 135, 230);
+}
+
+.botao:hover{
+    background-color: rgb(194, 241, 219) ;
+}
+
+.botao{
+    background-color: rgb(221, 221, 240);
+    border-radius: 55px;
+    padding: 5px;
+    margin: auto;
+}
+
+a{
+    display: block;
+    width: 40%;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(57, 57, 172);
+}
+
+.card{
+
+    background-color: rgb(231, 224, 224);
+    border: 1px solid rgb(182, 176, 176);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.card:hover{
+    width: 95%;
+    height: 105%;
+}
