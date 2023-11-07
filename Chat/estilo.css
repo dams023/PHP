@@ -24,11 +24,11 @@ input {
 
 button {
     height: 30px;               /* Altura*/
-    width: 150px;               /*Largura*/    
-    background-color: rgb(122, 126, 122);  /*Cor de fundo*/
-    color: white;             /*Cor da letra*/
-    border: none;               /*Sem borda*/
-    border-radius: 10px;        /*Arredondar borda*/
+    width: 150px;               /* Largura */    
+    background-color: rgb(122, 126, 122);  /* Cor de fundo */
+    color: white;             /* Cor da letra */
+    border: none;               /* Sem borda */
+    border-radius: 10px;        /* Arredondar borda */
 }
 
 body {
@@ -43,22 +43,22 @@ button:hover {
 }
 
 .mensagens {
-    text-align: left;   /*Alinhar a esquerda*/
-    padding: 2px;       /*Margem interna*/
-    padding-left: 20px; /*Margem interna da esquerda*/
-    box-shadow: 2px 2px 10px black;    /*Sombra*/
-    margin: 14px;       /*Margem externa*/
-    border-radius: 10px;/*Arredonda as bordas*/
+    text-align: left;   /* Alinhar a esquerda */
+    padding: 2px;       /* Margem interna */
+    padding-left: 20px; /* Margem interna da esquerda */
+    box-shadow: 2px 2px 10px black;    /* Sombra */
+    margin: 14px;       /* Margem externa */
+    border-radius: 10px;/* Arredonda as bordas */
 
 }
 
-b {                               /*Tag negrito*/
-    font-size: 20px;            /*Tamanho da fonte*/
-    color: rgb(40, 40, 236); /*Cor da letra*/
+b {                               /* Tag negrito */
+    font-size: 20px;            /* Tamanho da fonte */
+    color: rgb(40, 40, 236); /* Cor da letra */
 
 }
 
-.mensagens:hover {                      /*Quando passar o mouse*/
+.mensagens:hover {                      /* Quando passar o mouse */
     background-color: honeydew;
     transition: 1s;
 }

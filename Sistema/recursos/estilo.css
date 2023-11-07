@@ -1,0 +1,76 @@
+.painel {
+    width: 500px;               /* Largura */
+    margin: 20px auto;          /* Centralizar */
+    box-shadow: 2px 2px 10px;   /* Sombreado */
+    border-radius: 10px;        /* Arredondar bordas */
+    padding: 20px;              /* Espaçamento interno */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 100;
+    color: white;
+    background-color: black;
+}
+
+.user {
+    font-size: 100px;
+    padding-left: 190px;
+}
+
+.login {
+    text-align: center;
+
+}
+
+.menu {
+    background-color: rgb(55, 57, 61);
+    min-width: 250px;
+    color: rgb(31, 29, 29);
+    height: 100vh;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Faça o menu desaparecer no celular */
+@media (max-width: 768px) {                 /* Largura máxima 768px */
+    .menu {
+        display: none;                      /* Se a tela for abaixo e 768px desaparece o menu, com display none */
+    }
+}
+
+.item {
+    display: block;            /* Itens comportam-se como blocos */
+    padding: 10px 20px;        /* Espaçamento interno lateral (10px) e acima (20px) */
+    text-decoration: none;     /* Sem decoração */
+    font-style: none;          /* Sem decoração */
+    color: white;            /* Cor da letra*/
+    border: 1px solid white; /* Borda branca*/
+    border-radius: 10px;       /* Arredondar borda*/
+    margin-left: -50px;        /* Espaçamento externo esquerdo */
+    margin-top: 10px;          /* Espaçamento externo acima */   
+}
+
+.item:hover {
+    background-color: white;    /* Cor de fundo */
+    transition: 0.5s;             /* Tempo de animação */
+    text-decoration: none;        /* Tira a decoração das letras */
+    box-shadow: 1px 1px 10px black; /* Sombra */
+
+}
+
+.cartao {
+    box-shadow: 2px 2px 10px black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cartao:hover {
+    background-color: aliceblue;
+    transition: 1s;
+}
